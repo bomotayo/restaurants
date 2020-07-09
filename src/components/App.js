@@ -5,9 +5,13 @@ import './App.css';
 
 
 const App = () => {
+  function refreshPage() {
+    window.location.reload(false);
+  }
+
   return(
     <div className="ui container main-container">
-      <h1 className="main-title">RESTAURANT FINDER</h1>
+      <h1 className="main-title" onClick={refreshPage}>RESTAURANT FINDER</h1>
       <SearchBar />
       <RestaurantList />
     </div>
