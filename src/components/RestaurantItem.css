@@ -12,3 +12,8 @@
   color: black;
 }
 
+@media only screen and (max-width: 600px) {
+  .rest-cards{
+    width: 100% !important;
+  }
+}

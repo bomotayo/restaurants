@@ -4,7 +4,7 @@ import './RestaurantItem.css';
 const RestaurantItem = ({ list }) => {
   return(
      <div className="ui cards">
-        <a className="ui raised link card" href={list.reserve_url} target="_blank">
+        <a className="ui raised link card rest-cards" href={list.reserve_url} target="_blank">
             <div className="content">
                <img class="right floated mini ui image" src="https://www.opentable.com/img/restimages/21307.jpg" />
                <div className="header title">

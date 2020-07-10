@@ -1,0 +1,19 @@
+@media only screen and (max-width: 600px) {
+  .form-field{    
+    position: relative;
+    left: -20%;
+  }
+  .city-field,.city-input,.city-label, .ref-field,.ref-input,.ref-label{
+    display: block !important;
+  }
+  .city-input,.ref-input{
+    width: 300px !important;
+  }
+  .city-label,.ref-label{
+    margin-top: 20px !important;
+  }
+  .sub-btn{
+    margin-top: 20px !important;
+    width: 300px !important;
+  }
+}
